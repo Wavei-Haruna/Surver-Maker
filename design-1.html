@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design-1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>What would you like to ask?</h1>
+    </div>
+    <div class="question1">
+      <h3>Question</h3>
+      <input type="text " placeholder="What would you like to ask?" />
+    </div>
+    <div class="question2">
+      <h5>Questions</h5>
+      <input type="text" placeholder="Option 1" />
+      <input type="text" placeholder="Option 2" />
+      <input type="text" placeholder="Option 3" />
+    </div>
+
+    <div class="options">
+      <div class="poll">
+        <h4 class="pt">Poll type</h4>
+        <div class="vote">
+          <a href="#">
+            <input type="radio" id="ch1" value="vote1" name="vote" />
+            <label for="c1">Mutiple Choice</label></a
+          >
+        </div>
+        <div class="vote">
+          <a href="#">
+            <input type="radio" id="ch2" value="vote2" name="vote" /><label
+              for="ch2"
+              >Ranked Choice</label
+            >
+          </a>
+        </div>
+        <div class="vote">
+          <a href="#">
+            <input type="radio" id="ch3" value="vote3" name="vote" />
+            <label for="ch3"> Score</label>
+          </a>
+        </div>
+        <div class="vote">
+          <a href="#">
+            <input type="radio" id="ch4" value="vote4" name="vote" />
+            <label for="ch4"> Single Choice</label>
+          </a>
+        </div>
+      </div>
+
+      <div class="OpionsOrder">
+        <div class="random">
+          <h4 class="pt">Options Order</h4>
+          <input type="checkbox" value="randomize" />
+          <label for="check1"> Randomize</label>
+          <p>
+            Randomize the Order of Options <br />
+            for each voter
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- this is the end of the opions-->
+    <!-- this the start of the next order-->
+    <div class="anotherQuestion">
+      <input type="text" placeholder="Add Another Question" />
+    </div>
+  </body>
+</html>
