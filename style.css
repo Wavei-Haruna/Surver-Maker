@@ -112,9 +112,8 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1.2em;
-  margin: 1.2em;
+  margin: 1em 1.2em;
   text-align: center;
-  height: 100vh;
 }
 .container h1 {
   color: #7ab0fe;
